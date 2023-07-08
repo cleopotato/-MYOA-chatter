@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Page</title>
+        <title>chatter | app</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                font-family: "Roboto", "Arial", "sans-serif";
+            }
+            h1 {
+                color: #e0156a;
+            }
+            h2 {
+                color: #e0156a;
+                font-size: smaller;
+            }
+            p {
+                background-color: #eeeeee;
+            }
+            button {
+                color: white;
+                background-color: #e0156a;
+                font-size: larger;
+                text-transform: uppercase;
+            }
+        </style>
     </head>
     <body>
-        <h1>Welcome to my page!</h1>
-        <p>Some content.</p>
+        <!-- app title -->
+        <h1>chatter | app</h1>
+
+        <!-- channels area -->
+        <section>
+
+            <!-- favorite channels -->
+            <h2>Favorites</h2>
+            <strong>Besties</strong>
+            <small>9:18</small>
+            <br>
+            <strong>GamerZone</strong>
+            <small>8:32</small>
+
+            <!-- regular channels -->
+            <h2>Regular</h2>
+            <strong>K-Poppers</strong>
+            <small>Yesterday</small>
+            <br>
+            <strong>WorkChannel</strong>
+            <small>10 July 2023</small>
+
+        </section>
+
+        <!-- chat area -->
+        <section>
+
+            <!-- active channel -->
+            <h1>GamerZone</h1>
+            <!-- allows user to state active channel as favorite  -->
+            <button>Favorite</button>
+            
+            <!-- channel content -->
+            <h2>Kyle Hobbs</h2>
+            <p>
+                Anyone online rn??? just got home - LF squad to play COD
+            </p>
+            <small>8:20</small>
+
+            <h2>Donna McConnell</h2>
+            <p>
+                im down! boutta hop online. im actually so excited about the new
+                updates. Anyone bought the season pass yet? The contents are
+                soooooo lit!!!!
+            </p>
+            <small>8:22</small>
+
+            <h2>Jere Choi</h2>
+            <p>
+                Make that 3!!! lololol if thats cool with yall? and YASS i
+                bought the season pass lol im so freaking excited
+            </p>
+            <small>8:23</small>
+
+            <h2>Donna McConnell</h2>
+            <p>
+                np and sameeee- wait lemme send you an invite rn
+            </p>
+            <small>8:26</small>
+
+            <h2>Kyle Hobbs</h2>
+            <p>
+                AITEEEE IM READYYY LEZGET THIS DUB!!!!
+            </p>
+            <small>8:30</small>
+
+            <br>
+
+            <!-- box to input message -->
+            <input type="text" name="message" id="message">
+            <!-- button to send message -->
+            <button>Send</button>
+
+        </section>
     </body>
 </html>
