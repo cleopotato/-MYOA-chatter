@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>chatter | app</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+         <!-- channels area -->
+         <section id="channel-view">
+            <div class="headbar">
+                <h1 id="app-title">
+                    <img id="app-logo" src="../IMGS/logo.png" alt="This is chatter app's logo.">
+                    chatter | app
+                </h1>
+            </div>
+            <div class="channel-area">
+                <!-- favorite channels -->
+                <h2>Favorites</h2>
+                <ul class="channel-list">
+                    <li>
+                        <span class="channel-name">Besties</span>
+                        <span class="time-stamp">9:18</span>
+                    </li>
+                    <li class="selected">
+                        <span class="channel-name">GamerZone</span>
+                        <span class="time-stamp">8:32</span>
+                    </li>
+                </ul>
+                <!-- regular channels -->
+                <h2>Regular</h2>
+                <ul class="channel-list">
+                    <li>
+                        <span class="channel-name">K-Poppers</span>
+                        <span class="time-stamp">Yesterday</span>
+                    </li>
+                    <li>
+                        <span class="channel-name">WorkChannel</span>
+                        <span class="time-stamp">10 July 2023</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- chat area -->
+        <section id="chat-view">
+            <div class="headbar">
+                <!-- active channel -->
+                <h1>GamerZone</h1>
+                <!-- allows user to state active channel as favorite  -->
+                <button>Favorite</button>
+            </div>
+            <!-- channel content -->
+            <div class="chat-area">
+                <div class="message outgoing-chat">
+                    <div class="chat-content">
+                        <p>
+                            Anyone online rn??? just got home - LF squad to play COD
+                        </p>
+                    </div>
+                    <span class="time-stamp">8:19</span>
+                </div>
+                <div class="message incoming-chat">
+                    <div class="chat-content">
+                        <h3>Donna McConnell</h3>
+                        <p>
+                            im down! boutta hop online. im actually so excited about the new
+                            updates. Anyone bought the season pass yet? The contents are
+                            soooooo lit!!!!
+                        </p>
+                    </div>
+                    <span class="time-stamp">8:22</span>
+                </div>
+                <div class="message incoming-chat">
+                    <div class="chat-content">
+                        <h3>Jere Choi</h3>
+                        <p>
+                            Make that 3!!! lololol if thats cool with yall? and YASS i
+                            bought the season pass lol im so freaking excited
+                        </p>
+                    </div>
+                    <span class="time-stamp">8:23</span>
+                </div>
+                <div class="message incoming-chat">
+                    <div class="chat-content">
+                        <h3>Donna McConnell</h3>
+                        <p>
+                            np and sameeee- wait lemme send you an invite rn
+                        </p>
+                    </div>
+                    <span class="time-stamp">8:26</span>
+                </div>
+                <div class="message outgoing-chat">
+                    <div class="chat-content">
+                        <p>
+                            AITEEEE IM READYYY LEZGET THIS DUB!!!!
+                        </p>
+                    </div>
+                    <span class="time-stamp">8:30</span>
+                </div>
+            </div>
+            <div class="input-area">
+                <!-- box to input message -->
+                <input type="text" name="input-message" id="input-message" placeholder="Type your message here">
+                <!-- button to send message -->
+                <button>Send</button>
+            </div>
+        </section>
+    </body>
+</html>

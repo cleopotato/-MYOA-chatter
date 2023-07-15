@@ -1,0 +1,119 @@
+/* Global */
+* {
+    font-family: "Roboto", "Arial", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+}
+
+#channel-view {
+    width: 399px;
+    height: 100vh;
+    border-right: 1px solid rgb(199, 199, 199);
+}
+
+#chat-view {
+    left: 400px;
+    width: calc(100% - 400px);
+}
+
+/* App Bar */
+.headbar {
+    background-color: goldenrod;
+    height: 66px;
+    line-height: 66px;
+    padding: 0px 22px 0px 22px;
+}
+
+#app-logo {
+    height: 56px;
+}
+
+#app-title {
+    color: black;
+    padding: 3px 0px 2px 0px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+/* Channel List */
+
+h2 {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 22px 22px 11px 11px;
+}
+.channel-list {
+    list-style: none;
+    background-color: white;
+}
+
+.channel-list li {
+    box-sizing: border-box;
+    padding: 22px;
+    height: 66px;
+}
+
+.channel-list li.selected {
+    border-right: 3px solid goldenrod;
+    background-color: lightgray;
+}
+
+/* Messages */
+#chat-view h1 {
+    display: inline;
+}
+
+.message {
+    width: 75%;
+}
+
+.chat-content {
+    text-align: left;
+    margin: 10px 11px;
+}
+
+.chat-content h3 {
+    font-size: 14px;
+    color: goldenrod;
+    margin-bottom: 10px;
+}
+
+.chat-content p {
+    font-size: 14px;
+}
+
+.incoming-chat .chat-content {
+    background-color: lightgray;
+}
+
+.outgoing-chat .chat-content {
+    background-color:goldenrod;
+}
+
+.time-stamp {
+    font-size: 12px;
+}
+
+/* Buttons */
+button {
+    color: white;
+    background-color: black;
+    font-size: larger;
+    text-transform: uppercase;
+}
